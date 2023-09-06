@@ -21,6 +21,8 @@ char glet = 'g';
 char elet = 'e'; 
 string name = myletter + olet + llet + alet + nlet + glet + elet; 
 Console.WriteLine (name + "is learning to code")
+bool amilearning = true;
+Console.WriteLine (amilearning)
     }
     
 }
