@@ -22,7 +22,7 @@ char elet = 'e';
 string name = myletter + olet + llet + alet + nlet + glet + elet; 
 Console.WriteLine (name + "is learning to code")
 bool amilearning = true;
-Console.WriteLine (amilearning)
+Console.WriteLine (amilearning) //attempt to connect variables and use each variable//
     }
     
 }
