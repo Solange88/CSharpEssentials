@@ -30,7 +30,7 @@ public class Program
 		
 		hero.health = 4;
 		hero.powerLevels = 3.5; 
-	//created a new hero for user to input 
+	//created a new hero for user to input.
 		Console.WriteLine("Write your Name.");
 		string heroThree = Console.ReadLine();
 		Console.WriteLine(" Hello " + heroThree);
