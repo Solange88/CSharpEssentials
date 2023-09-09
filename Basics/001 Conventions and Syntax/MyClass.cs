@@ -37,11 +37,11 @@ public class Program
 		Console.WriteLine("Your health is " + hero.health);
 		Console.WriteLine("Your power level is" + hero.powerLevels);
 	//stats are preset but the player can put in their name	
-		Console.WriteLine ("Hero Two is your opponent. are you up for the challenge? Type yes to see Hero Two's power level."
+		Console.WriteLine ("Hero Two is your opponent. are you up for the challenge? Type yes to see Hero Two's power level.");
 				   Console.ReadLine ();
 		Console.WriteLine("Hero two's health is " + heroTwo.health);
 		Console.WriteLine("Hero two's power level is " + heroTwo.powerLevel);
-				   Comsole.WriteLine ("  Ready? Type Go.") 
+				   Console.WriteLine ("  Ready? Type Go.");
 				   Console.ReadLine ();
 	}
 }
