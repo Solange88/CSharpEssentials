@@ -20,7 +20,7 @@ public class Program
 	{
 		heroOne = new Hero();
 		heroTwo = new Hero();
-		
+		hero = new Hero ();
 		
 		heroOne.health = 2;
 		heroOne.powerLevel = 5;
@@ -34,11 +34,15 @@ public class Program
 		Console.WriteLine("Write your Name.");
 		string heroThree = Console.ReadLine();
 		Console.WriteLine(" Hello " + heroThree);
-		Console.WriteLine("Your health is" + hero.health);
+		Console.WriteLine("Your health is " + hero.health);
 		Console.WriteLine("Your power level is" + hero.powerLevels);
-	//stats are preset but the playwr can put in their name	
-		Console.WriteLine(heroTwo.health);
-		Console.WriteLine(heroTwo.powerLevel);
+	//stats are preset but the player can put in their name	
+		Console.WriteLine ("Hero Two is your opponent. are you up for the challenge? Type yes to see Hero Two's power level."
+				   Console.ReadLine ();
+		Console.WriteLine("Hero two's health is " + heroTwo.health);
+		Console.WriteLine("Hero two's power level is " + heroTwo.powerLevel);
+				   Comsole.WriteLine ("  Ready? Type Go.") 
+				   Console.ReadLine ();
 	}
 }
 
