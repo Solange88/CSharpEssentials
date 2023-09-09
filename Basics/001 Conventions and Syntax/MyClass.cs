@@ -29,13 +29,14 @@ public class Program
 		heroTwo.powerLevel = 1;
 		
 		hero.health = 4;
-	
+		hero.powerLevels = 3.5; 
+	//created a new hero for user to input 
 		Console.WriteLine("Write your Name.");
 		string heroThree = Console.ReadLine();
 		Console.WriteLine(" Hello " + heroThree);
 		Console.WriteLine("Your health is" + hero.health);
-		Console.WriteLine("Your power level is" + heroOne.powerLevel);
-		
+		Console.WriteLine("Your power level is" + hero.powerLevels);
+	//stats are preset but the playwr can put in their name	
 		Console.WriteLine(heroTwo.health);
 		Console.WriteLine(heroTwo.powerLevel);
 	}
@@ -44,4 +45,6 @@ public class Program
 public class Hero {
 	public int health;
 	public int powerLevel;
+	public double powerLevels;
+	//attempt to use a decimal value
 }
