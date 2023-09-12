@@ -12,6 +12,6 @@ public class Program
 	}
 	public void DoMath (int value, int value2) {
 		var number = value + value;
-		Console.WriteLine(number)
+		Console.WriteLine(number);
 	}
 }
