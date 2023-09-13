@@ -7,6 +7,8 @@ public void Main ()
 Compare ( 30, 35);
 Temperature ( 30, 27);
 Compare (30, 27); 
+Console.WriteLine ( "Let's check your grade. Write down your percantage below." );
+Testresult (Console.Readline);
 }
 public void Temperature (int temp, int temp2)
 { 
@@ -22,9 +24,10 @@ Console.WriteLine ( "It looks like it's really hot today. Stay hydrated and make
 else { Console.WriteLine ( " Enjoy the pleasant weather and have a good day!" );
 }
 }
-public void Testresult (string testpercantage) {
-if (testpercantage == 100, 99, 98, 97, 96, 95, 94, 93, 92, 91) 
+public void Testresult (int testpercantage) {
+if (testpercantage == " 100" + "99" + "98" + "97" + "96" + "95" "94" + "93" + "92" + "91" + "90" ) 
 {
 Console.WriteLine (" Grade: A");
+
 }
 }
