@@ -8,7 +8,8 @@ Compare ( 30, 35);
 Temperature ( 30, 27);
 Compare (30, 27); 
 Console.WriteLine ( "Let's check your grade. Write down your percantage below." );
-Testresult (Console.Readline);
+Console.Readline (); 
+// got stuck here. attempted if Console.Readline > 90 Console.WriteLine ("grade :A"); also tried to create public testresult void, etc. but not sure how to use a variable with console.ReadLine
 }
 public void Temperature (int temp, int temp2)
 { 
@@ -25,5 +26,4 @@ else { Console.WriteLine ( " Enjoy the pleasant weather and have a good day!" );
 }
 }
 
-}
 }
