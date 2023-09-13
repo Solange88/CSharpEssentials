@@ -9,12 +9,13 @@ Compare ( 30, 35);
 public void Temperature (int temp, int temp2)
 { 
 var tempcelsius = temp2;
-Console.WriteLine (  tempcelsius + "is the temperature today in celsius." );
+Console.WriteLine (  tempcelsius + " is the temperature today in celsius." );
 
 }
 public void Compare ( int temp, int temp2) 
 { 
 if (temp < temp2) {
-Console.Writeline ( "It looks like it's really hot today. Stay hydrated and make sure you aren't in the sun for too long! Enjoy the day. " );
+Console.WriteLine ( "It looks like it's really hot today. Stay hydrated and make sure you aren't in the sun for too long! Enjoy the day. " );
+}
 }
 }
