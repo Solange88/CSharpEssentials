@@ -2,5 +2,14 @@ using System ;
 public class Program
 {
 public void Main ()
-{ }
+{ Console.WriteLine ( " Hello, what is the temperature today? " );
+ Temperature (30, 35);
+}
+public void Temperature (int temp, int temp2)
+{ 
+var tempcelsius = temp2;
+Console.WriteLine (  tempcelsius + "is the temperature today in celsius." );
+
+}
+public void Compare
 }
