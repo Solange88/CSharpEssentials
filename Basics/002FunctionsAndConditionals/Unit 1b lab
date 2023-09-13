@@ -5,8 +5,8 @@ public void Main ()
 { Console.WriteLine ( " Hello, what is the temperature today? " );
  Temperature (30, 35);
 Compare ( 30, 35);
-Temperature ( 27, 35);
-Compare (27, 35); 
+Temperature ( 30, 27);
+Compare (30, 27); 
 }
 public void Temperature (int temp, int temp2)
 { 
