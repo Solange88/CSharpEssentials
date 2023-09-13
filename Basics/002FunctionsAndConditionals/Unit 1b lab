@@ -24,10 +24,6 @@ Console.WriteLine ( "It looks like it's really hot today. Stay hydrated and make
 else { Console.WriteLine ( " Enjoy the pleasant weather and have a good day!" );
 }
 }
-public void Testresult (int testpercantage) {
-if (testpercantage == " 100" + "99" + "98" + "97" + "96" + "95" "94" + "93" + "92" + "91" + "90" ) 
-{
-Console.WriteLine (" Grade: A");
 
 }
 }
