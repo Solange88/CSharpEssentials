@@ -13,6 +13,7 @@ if ( studentscore > 90); {
 Console.WriteLine ( " Your grade is an A. " ); } 
 
 // got stuck here. attempted if Console.Readline > 90 Console.WriteLine ("grade :A"); also tried to create public testresult void, etc. but not sure how to use a variable with console.ReadLine
+// update, I was able to convert Readline to int but i Can't add any more if statments without error. 
 }
 public void Temperature (int temp, int temp2)
 { 
