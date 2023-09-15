@@ -8,6 +8,7 @@ Compare ( 30, 35);
 Temperature ( 30, 27);
 Compare (30, 27); 
 Temperature (30, 10);
+compare (30,10);
 Console.WriteLine ( "Let's check your grade. Write down your percantage below." );
 int studentscore = Convert.ToInt32 (Console.ReadLine ()); 
 if ( studentscore >90); {
