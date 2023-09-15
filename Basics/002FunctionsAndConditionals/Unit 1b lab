@@ -8,7 +8,9 @@ Compare ( 30, 35);
 Temperature ( 30, 27);
 Compare (30, 27); 
 Console.WriteLine ( "Let's check your grade. Write down your percantage below." );
-Console.Readline (); 
+int studentscore = Convert.Toint32Console.Readline (); 
+if (test score > 90]
+
 // got stuck here. attempted if Console.Readline > 90 Console.WriteLine ("grade :A"); also tried to create public testresult void, etc. but not sure how to use a variable with console.ReadLine
 }
 public void Temperature (int temp, int temp2)
