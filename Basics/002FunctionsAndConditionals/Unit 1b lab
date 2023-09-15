@@ -54,8 +54,9 @@ Console.WriteLine ( "It looks like it's really hot today. Stay hydrated and make
 }
 else { Console.WriteLine ( " Enjoy the pleasant weather and have a good day!" );
 }
-Console.WriteLine ("It's cold today! try to bundle up with some warm clothing.");
+if (temp2 ==10) { Console.WriteLine ("It's cold today! try to bundle up with some warm clothing.");
 Console.WriteLine (" ");
+}
 }
 
 }
