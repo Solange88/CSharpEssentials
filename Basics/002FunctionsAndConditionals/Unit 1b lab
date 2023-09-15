@@ -55,6 +55,7 @@ Console.WriteLine ( "It looks like it's really hot today. Stay hydrated and make
 }
 else { Console.WriteLine ( " Enjoy the pleasant weather and have a good day!" );
 }
+// couldn't get if else statment to work, so the pleasant weather writeline repeats. 
 if (temp2 ==10) { Console.WriteLine ("It's cold today! try to bundle up with some warm clothing.");
 Console.WriteLine (" ");
 }
