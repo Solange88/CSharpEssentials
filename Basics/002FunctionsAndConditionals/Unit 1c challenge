@@ -5,7 +5,7 @@ public class Program
 {
 	public static void Main()
 	{
-		Console.WriteLine("Hello what are your favorite food?");
+		Console.WriteLine("Hello what are your favorite foods?");
 		
 		string[] favoritefoods = new string[3];
 		favoritefoods[0] = Console.ReadLine();
