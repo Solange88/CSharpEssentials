@@ -18,6 +18,29 @@ public class Program
 }
 //new program, kept on same page for homework submission.
 //used tutorial for number guesser, not sure how to fix play again sequence.
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Random random = new Random();
+		bool playAgain = true;
+		int min = 1;
+		int max = 10; 
+		int guess; 
+		int number; 
+		int guesses; 
+		String response; 
+		while (playAgain == true)
+		{ 
+guess = 0;
+			guesses = 0; 
+			response = "";
+			number = random.Next (min, max + 1);
+		while (guess != number)
+		{ 
 Console.WriteLine("Guess a number between " + min + " and " + max + ": " ); 
 			guess = Convert.ToInt32(Console.ReadLine()); 
 			Console.WriteLine ( "Your guess is: " + guess);
