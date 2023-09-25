@@ -16,3 +16,35 @@ public class Program
 		Console.WriteLine("I love " + favoritefoods[2] + " " + favoritefoods [1] + " and " + favoritefoods [0] + "!" );
 	}
 }
+//new program, kept on same page for homework submission.
+//used tutorial for number guesser, not sure how to fix play again sequence.
+Console.WriteLine("Guess a number between " + min + " and " + max + ": " ); 
+			guess = Convert.ToInt32(Console.ReadLine()); 
+			Console.WriteLine ( "Your guess is: " + guess);
+			if (guess > number)
+			{
+Console.WriteLine(guess + "  is too high...");
+				}
+			else if (guess < number)
+			{
+Console.WriteLine(guess + " your guess is too low...!"); 
+			}
+			guesses++;
+		}
+Console.WriteLine("Number: " + number);
+			Console.WriteLine("YOU WIN! =D" );
+			Console.WriteLine("Guesses: " + guesses);
+		Console.WriteLine("Would you like to play again? (Y/N): " ); 
+			response = Console.ReadLine();
+			response = response.ToUpper();
+			if (response== "Y")
+			{ 
+playAgain= true;
+			}
+		else {
+playAgain = false;
+		}	
+	}
+		Console.WriteLine ("Thanks for playing!");
+}
+}
