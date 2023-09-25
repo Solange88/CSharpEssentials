@@ -1,1 +1,18 @@
 
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hello what are your favorite food?");
+		
+		string[] favoritefoods = new string[3];
+		favoritefoods[0] = Console.ReadLine();
+		Console.WriteLine(favoritefoods [0] + " is delicious! What's another food you like?");
+		favoritefoods [1] = Console.ReadLine();
+		Console.Write("Nice. How about one more?");
+		favoritefoods [2] = Console.ReadLine();
+		Console.WriteLine("I love " + favoritefoods[2] + " " + favoritefoods [1] + " and " + favoritefoods [0] + "!" );
+	}
+}
